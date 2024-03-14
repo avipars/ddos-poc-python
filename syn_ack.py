@@ -1,7 +1,7 @@
 from scapy.all import *
 
 # target IP address (should be a testing router/firewall)
-target_ip = "192.168.56.101"
+target_ip = "127.0.0.1"
 
 # the target port u want to flood
 target_port = 5000
