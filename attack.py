@@ -13,8 +13,8 @@ def attack(target,fake_ip, port):
         s.close()
 
 def main():
-    target = '192.168.56.101'
-    fake_ip = '182.21.20.32'
+    target = '127.0.0.1' #target ip 
+    fake_ip = '192.0.0.1' #pretend to be someone else
     port = 5000
     attack(target, fake_ip, port)
 
